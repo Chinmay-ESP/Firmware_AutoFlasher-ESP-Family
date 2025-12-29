@@ -81,7 +81,7 @@ The following parameters are defined inside the Python script and can be modifie
 
 ---
 
-## ▶️ Usage Instructions
+##  Usage Instructions
 
 1. Place the compiled firmware binary in the project directory:
 
@@ -101,7 +101,7 @@ The following parameters are defined inside the Python script and can be modifie
 
 ---
 
-## 📟 Example Console Output
+##  Example Console Output
 
 ```
 [14:32:10] === PARALLEL ESP-DEVICE FLASHER STARTED ===
