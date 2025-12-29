@@ -7,18 +7,18 @@ The tool supports **parallel flashing**, making it suitable for **production lin
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-* 🔍 Automatic detection of newly connected ESP devices
-* ⚡ Parallel flashing of multiple boards simultaneously
-* 🧠 No manual COM port selection
-* 🚀 High-speed flashing using `esptool`
-* 📟 Real-time console status and progress logs
-* 🧩 Easily extensible for new ESP devices
+* Automatic detection of newly connected ESP devices
+* Parallel flashing of multiple boards simultaneously
+* No manual COM port selection
+* High-speed flashing using `esptool`
+* Real-time console status and progress logs
+* Easily extensible for new ESP devices
 
 ---
 
-## 🧠 Supported Devices (Current)
+##  Supported Devices (Current)
 
 The following ESP devices are officially supported in this project:
 
@@ -26,11 +26,11 @@ The following ESP devices are officially supported in this project:
 2. **ESP32-WROOM-32D-N4**
 3. **ESP32-WROOM-32D-N8**
 
-> 🔧 More ESP-family devices can be added by updating the configuration inside the script.
+> More ESP-family devices can be added by updating the configuration inside the script.
 
 ---
 
-## 🗂 Project Structure
+##  Project Structure
 
 ```
 .
@@ -42,7 +42,7 @@ The following ESP devices are officially supported in this project:
 
 ---
 
-## 🛠 System Requirements
+##  System Requirements
 
 ### Software
 
@@ -58,7 +58,7 @@ pip install esptool pyserial
 
 ---
 
-## ⚙️ Configuration Parameters
+##  Configuration Parameters
 
 The following parameters are defined inside the Python script and can be modified if required:
 
@@ -71,7 +71,7 @@ The following parameters are defined inside the Python script and can be modifie
 
 ---
 
-## 🔄 Operational Workflow
+##  Operational Workflow
 
 1. Script continuously scans available UART ports
 2. Detects newly connected ESP devices
